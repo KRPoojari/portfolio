@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://krpoojari.github.io",
+  "homepage": "https://krpoojari.github.io/portfolio",
   "dependencies": {
     "@chakra-ui/react": "^1.7.1",
     "@emotion/react": "^11.6.0",
