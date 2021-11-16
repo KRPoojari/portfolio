@@ -18,7 +18,7 @@ function Header() {
                 <Spacer />
                 <Text fontSize="md" >
                     A Third Year Computer Engineering Undergrad. Currently exploring<br /> 
-                      Databases and Backend Engineering. 
+                    Databases and Backend Engineering. 
                 </Text>
             </Box>
         </Flex> 
