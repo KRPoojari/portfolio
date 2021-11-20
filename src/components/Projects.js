@@ -12,7 +12,7 @@ function Projects() {
 
         
         <Flex direction="column">
-            <MotionBox mb="1" p={10} maxWidth="600px" bg = {bg} whileHover={{ scale: 1.2 }}>
+            <MotionBox mb="1" p={10} maxWidth="600px" bg = {bg} whileHover={{ scale: 1.1 }}>
                 <Box fontSize="xs">
                     PYTHON | FLASK | REACT
                 </Box>
@@ -24,7 +24,7 @@ function Projects() {
                 </Box>
             </MotionBox>
             <Spacer />
-            <MotionBox mb="1" p={10} maxWidth="600px" bg={bg} whileHover={{ scale: 1.2 }}>
+            <MotionBox mb="1" p={10} maxWidth="600px" bg={bg} whileHover={{ scale: 1.1 }}>
                 <Box fontSize="xs">
                     WEB3 | SOLIDITY | REACT
                 </Box>
@@ -36,7 +36,7 @@ function Projects() {
                 </Box>
             </MotionBox>
             <Spacer />
-            <MotionBox mb="1" p={10} maxWidth="600px" bg={bg} whileHover={{ scale: 1.2 }}>
+            <MotionBox mb="1" p={10} maxWidth="600px" bg={bg} whileHover={{ scale: 1.1 }}>
                 <Box fontSize="xs">
                     WEB | ARDUINO
                 </Box>
@@ -48,7 +48,7 @@ function Projects() {
                 </Box>
             </MotionBox>
             <Spacer />
-            <MotionBox p={10} maxWidth="600px" bg={bg} whileHover={{ scale: 1.2 }}>
+            <MotionBox p={10} maxWidth="600px" bg={bg} whileHover={{ scale: 1.1 }}>
                 <Box fontSize="xs">
                     UI DESIGN | FIGMA
                 </Box>
