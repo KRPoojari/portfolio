@@ -11,10 +11,8 @@ function Social() {
     const { colorMode } = useColorMode();
     const isDark = colorMode === "dark"
 
-    const { isNotSmallerScreen } = useMediaQuery("(min-width:600px)");
-
     return (
-        <Flex position="fixed" bottom="16" w="50%" pl={64} justifyContent="flex-start">
+        <Flex position="fixed" bottom="16" w="50%" justifyContent="flex-start">
             <IconButton ml="2" size="lg" icon={<FaGithub />} isRound="true" onClick={()=> window.open("https://github.com/KRPoojari", "_blank")}></IconButton>
             <IconButton ml="4" size="lg" icon={<FaLinkedin />} isRound="true" onClick={()=> window.open("https://www.linkedin.com/in/kartik-poojari-74250b201/", "_blank")}></IconButton>
             <IconButton ml="4" size="lg" icon={<FaEnvelope />} isRound="true" onClick={()=> window.open("mailto:kartikpoojari109@gmail.com")}></IconButton>

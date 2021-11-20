@@ -26,7 +26,7 @@ function App() {
       </Flex>
       <Flex p={5} direction="column" w="100%">
         <Flex w="50%">
-          <Box display="flex">
+          <Box display="flex" pl="64">
             <Header />
             <Social />
           </Box>

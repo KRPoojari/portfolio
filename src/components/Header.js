@@ -13,15 +13,14 @@ function Header() {
     const isSmallerScreen = SmallerScreen === "(min-width:600px)"
     
     return (
-        <Flex position="fixed" pl={isSmallerScreen ? "0" : "64"}>
+        <Flex justifyContent="flex-start" position="fixed">
             <Box>
                 <Text fontSize="5xl" fontWeight="semibold">Hello, I am </Text>
                 <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text">Kartik</Text>
                 <Spacer />
-                <Box >
+                <Box maxW="600px">
                     <Text fontSize="md" >
-                        A Third Year Computer Engineering Undergrad. Currently exploring<br /> 
-                        Databases and Backend Engineering. 
+                        A Third Year Computer Engineering Undergrad. Currently exploring Databases and Backend Engineering. 
                     </Text>
                 </Box>
             </Box>
