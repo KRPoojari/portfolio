@@ -20,13 +20,13 @@ function App() {
   const { isNotSmallerScreen } = useMediaQuery("(min-width:600px)");
 
   return (
-    <Flex bgColor={bgColor} direction="column" align="center" justify="center">
+    <Flex bgColor={bgColor} direction="column">
       <Flex w="100%" p={5} justifyContent="flex-end">
           <IconButton ml="8" icon={isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode}></IconButton>
       </Flex>
       <Flex p={5} direction="column" w="100%">
         <Flex w="50%">
-          <Box display="flex" pl="64">
+          <Box display="flex" pl={[10, 64]}>
             <Header />
             <Social />
           </Box>

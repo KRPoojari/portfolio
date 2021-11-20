@@ -8,9 +8,7 @@ function Projects() {
     const bg = useColorModeValue("gray.200", "#1f1f1f")
     const MotionBox = motion(Box)
 
-    return (
-
-        
+    return (  
         <Flex direction="column">
             <MotionBox mb="1" p={10} maxWidth="600px" bg = {bg} whileHover={{ scale: 1.1 }}>
                 <Box fontSize="xs">
@@ -20,7 +18,7 @@ function Projects() {
                     TorrPydo
                 </Box>
                 <Box fontSize="sm">
-                    An attempt to completely revamp the looks of the Amazon.com website and make it more clear and less cluttery
+                    A torrent client built with Python
                 </Box>
             </MotionBox>
             <Spacer />
@@ -32,7 +30,7 @@ function Projects() {
                     Wave
                 </Box>
                 <Box fontSize="sm">
-                    An attempt to completely revamp the looks of the Amazon.com website and make it more clear and less cluttery
+                    A 2-week learning project which helped in learning some Solidity, write+deploy a smart contract to Blockchain and build a Web3 client app to interact with the deployed smart contract
                 </Box>
             </MotionBox>
             <Spacer />
@@ -44,7 +42,7 @@ function Projects() {
                     ALBS
                 </Box>
                 <Box fontSize="sm">
-                    An attempt to completely revamp the looks of the Amazon.com website and make it more clear and less cluttery
+                    An IoT based solution built using Arduino UNO and a Web Dashboard to power rapid response to road accidents
                 </Box>
             </MotionBox>
             <Spacer />
