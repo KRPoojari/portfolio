@@ -3,7 +3,7 @@ import { Flex } from '@chakra-ui/layout'
 import React from 'react'
 import { useColorMode } from '@chakra-ui/color-mode'
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaFile } from 'react-icons/fa'
-import { useMediaQuery } from '@chakra-ui/react'
+
 
 
 function Social() {

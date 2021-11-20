@@ -1,12 +1,12 @@
 import { IconButton } from '@chakra-ui/button'
-import { Flex, VStack } from '@chakra-ui/layout'
+import { Flex } from '@chakra-ui/layout'
 import React from 'react'
 import { useColorMode, useColorModeValue } from '@chakra-ui/color-mode'
 import {FaSun, FaMoon, } from 'react-icons/fa'
 import Header from './components/Header'
 import Social from './components/Social'
 import Projects from './components/Projects'
-import { HStack, Box } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 import { useMediaQuery } from '@chakra-ui/react'
 
 
@@ -16,8 +16,6 @@ function App() {
   const isDark = colorMode === "dark"
 
   const bgColor = useColorModeValue("#ffffff", "#121212")
-
-  const { isNotSmallerScreen } = useMediaQuery("(min-width:600px)");
 
   return (
     <Flex bgColor={bgColor} direction="column">
